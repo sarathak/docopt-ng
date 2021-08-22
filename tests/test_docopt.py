@@ -59,7 +59,7 @@ def test_option_name():
 
 
 def test_commands():
-    assert docopt("Usage: prog add", "add") == {"add": True}
+    assert docopt("Usage: prog add", "add") == {"addq": True}
     assert docopt("Usage: prog [add]", "") == {"add": False}
     assert docopt("Usage: prog [add]", "add") == {"add": True}
     assert docopt("Usage: prog (add|rm)", "add") == {"add": True, "rm": False}
