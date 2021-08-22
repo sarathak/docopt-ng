@@ -35,3 +35,6 @@ docs/_*
 
 # jython
 *$py.class
+
+#ide
+.idea/
